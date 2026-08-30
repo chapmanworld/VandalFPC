@@ -434,11 +434,9 @@ Normal VandalSDK installations should not need to bootstrap Free Pascal from sou
 
 ## Licensing
 
-VandalFPC retains the licenses of the upstream Free Pascal source from which it is derived.
-
-The Free Pascal compiler sources are distributed under the GPL, while runtime components have their respective upstream licensing terms.
-
-See the license files contained in this repository for the authoritative terms.
+VandalFPC preserves the licensing of the upstream Free Pascal sources. 
+The compiler is GPLv2; RTL and package components retain their upstream LGPL terms and Free Pascal linking exception. 
+See LICENSE and the original licensing files within the source tree.
 
 ## Status
 
