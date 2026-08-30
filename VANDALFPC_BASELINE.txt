@@ -1,0 +1,11 @@
+VandalFPC upstream baseline
+
+Free Pascal Compiler:
+  Version: 3.3.1 development
+  Git commit: 2ff18e48a0dbc1fa9ba54c0ce9f0bf670ddc7d80
+  SVN revision: r46891
+  Date: 2020-09-18
+
+Reason:
+  This revision contains the static-array constructor conversion fix
+  required by Vandal Engine.
