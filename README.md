@@ -1,6 +1,7 @@
 # VandalFPC
 
-**VandalFPC** is a purpose-specific, pinned build of the Free Pascal Compiler used by the **Vandal Engine** game engine and VandalSDK.
+**VandalFPC** is a purpose-specific, pinned build of the Free Pascal Compiler used by the **Vandal Engine** game engine.
+VandalFPC is an independent downstream project and is not affiliated with, endorsed by, or maintained by the Free Pascal development team.
 
 It is not intended to replace the Free Pascal project, track every upstream FPC feature, provide a complete alternative RTL, or serve as a general-purpose Pascal distribution.
 
@@ -17,6 +18,9 @@ SVN revision:      r46891
 Commit date:       2020-09-18
 Initial bootstrap: FPC 3.2.2
 ```
+
+Upstream Free Pascal source:
+https://gitlab.com/freepascal.org/fpc/source
 
 ## Why does this repository exist?
 
@@ -61,7 +65,7 @@ For a game engine containing large amounts of vector, matrix and tensor mathemat
 
 ## The array-constructor problem
 
-Free Pascal has historically had difficulty distinguishing between Pascal **set constructors** and **array constructors** in overloaded-expression contexts.
+Several historical FPC issues have involved resolution between set constructors and array constructors in overloaded-expression contexts.
 
 The syntax:
 
